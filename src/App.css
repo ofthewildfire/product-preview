@@ -43,6 +43,7 @@ picture > img {
   padding: 0 1.5em;
   display: grid;
   gap: .9375rem;
+  padding: 2em;
   place-content: center;
 }
 
