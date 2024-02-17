@@ -92,7 +92,7 @@ picture > img {
 .card_addBtn {
   display: flex;
   gap: .625rem;
-  padding: 1em 2em;
+  padding: 1.25em 2em;
   width: 100%;
   place-content: center;
   background-color: var(--DarkCyan);
