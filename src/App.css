@@ -47,7 +47,7 @@ picture > img {
   padding: 0 1.5em;
   display: grid;
   gap: .9375rem;
-  padding: 2em;
+  padding: 2em 1em;
   place-content: center;
 }
 
@@ -114,6 +114,7 @@ picture > img {
   .main-content {
     display: flex;
     gap: .9375rem;
+    width: 100%;
   }
 
   picture {
@@ -131,5 +132,6 @@ picture > img {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 0;
+    height: 100%;
   }
 }
