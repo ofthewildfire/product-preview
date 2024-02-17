@@ -100,8 +100,14 @@ picture > img {
   border-radius: 7px;
   font-weight: 700;
   color: var(--White);
+  transition: background-color .5s linear;
 }
 
+
+.card_addBtn:is(:hover, :active, :focus) {
+  background-color: var(--VeryDarkBlue);
+  cursor: pointer;
+}
 
 @media screen and (min-width: 41.25rem) {
   body {
