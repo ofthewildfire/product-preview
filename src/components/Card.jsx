@@ -1,11 +1,8 @@
 import React from 'react'
 
 function Card({children}) {
-  return (
-    <div className='main-content'>
-        {children}
-    </div>
-  )
+  return <article className='main-content'>{children}</article>
 }
 
 export default Card
+

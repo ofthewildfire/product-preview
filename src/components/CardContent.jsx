@@ -13,7 +13,7 @@ function CardContent() {
         </p>
         <div className="card_pricing">
         <span className="card_product-price">$149.99</span>
-        <span className="card-product-price--strike">$169.99</span> 
+        <del className="card-product-price--strike">$169.99</del> 
         </div>
         <Button/>
     </div>
